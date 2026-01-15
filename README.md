@@ -69,16 +69,13 @@ This is a Java-based Task Reminder Application designed to help users efficientl
 git clone https://github.com/shaiksuhana2424/AutomatedTaskReminderProject.git
 
 2️⃣ Configure Database
-
 Update application.properties with H2 (easy) or MySQL setup.
 
 3️⃣ Build & Run
-
 mvn spring-boot:run
 
 
 4️⃣ Access APIs
-
 Open in browser or Postman:
 
 http://localhost:8080
@@ -93,11 +90,13 @@ Push notifications for tasks
 
 Analytics dashboard
 
+
 👤 Author
 
 Shaik Suhana
 Final Year B.Tech Student
 Java & Spring Boot Developer
+
 
 📄 License
 
