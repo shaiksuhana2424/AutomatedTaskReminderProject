@@ -1,49 +1,52 @@
-# Automated Task Reminder System ⏰
+# Automated Task Reminder Application ⏰
 
 📌 **Project Overview**  
-The Automated Task Reminder System is a **Java-based application** designed to help users efficiently manage their daily tasks. Users can create tasks, schedule reminders, track progress, and generate reports. The system uses **Java Collections, Timers, JDBC**, and **Spring Boot REST APIs** to ensure reliable and scalable task management.
-
-This project emphasizes **productivity, simplicity, and accuracy** without relying on heavy frameworks or AI.
+This is a Java-based Task Reminder Application designed to help users efficiently manage tasks. Users can create tasks, set due dates, receive reminders, track completion, and export reports. It uses **Java Collections, Timers, JDBC**, and **Spring Boot REST APIs** for reliability and scalability, without relying on heavy frameworks.
 
 ---
 
-## 🚀 **Key Features**
-- Create, view, update, and delete tasks  
-- Schedule reminders for tasks using Java concurrency  
-- Track completed and pending tasks  
-- Export task summaries as CSV  
-- REST APIs for integration with front-end applications  
+## 🎯 **Key Outcomes**
+- Reliable task scheduling using Java concurrency  
+- Accurate tracking of completed and pending tasks  
+- Exportable task reports in CSV format  
+- API-driven access for integration with frontends  
 
 ---
 
-## 🧩 **Main Modules**
+## 🧩 **Modules Implemented**
 
-### 1️⃣ Task Management
-- Manage task creation and updates  
+### 1️⃣ Task Management Engine
+- Create, update, and list tasks using Java Collections  
 - Persist tasks using JDBC (MySQL / H2)  
 - REST APIs:  
-  - `POST /tasks` — Add a new task  
-  - `GET /tasks` — List all tasks  
-  - `PUT /tasks/{id}` — Update a task  
-  - `DELETE /tasks/{id}` — Remove a task  
+  - `POST /tasks/add`  
+  - `GET /tasks/list`  
+  - `PUT /tasks/{id}`  
 
-### 2️⃣ Reminder Scheduler
-- Schedule notifications for pending tasks  
-- Uses Java’s `ScheduledExecutorService` for concurrency  
+### 2️⃣ Scheduling System
+- Schedule reminders using `ScheduledExecutorService`  
+- Handle concurrent reminders and notifications  
 - REST APIs:  
-  - `POST /reminders/{id}` — Set a reminder  
-  - `GET /reminders` — List all upcoming reminders  
+  - `POST /schedule/set`  
+  - `GET /reminders/{taskId}`  
 
 ### 3️⃣ Reporting & CSV Export
-- Generate task summary reports  
-- Export reports to CSV format  
+- Generate task summaries and reports  
+- Export to CSV format  
 - REST APIs:  
-  - `GET /reports` — View report summary  
-  - `POST /reports/export` — Export CSV  
+  - `GET /reports/overview`  
+  - `POST /reports/export`  
+
+### 4️⃣ Completion Tracker
+- Mark tasks as completed  
+- View task status insights  
+- REST APIs:  
+  - `PUT /completion/mark`  
+  - `GET /status/{taskId}`  
 
 ---
 
-## 🛠 **Technologies Used**
+## 🛠️ **Technologies Used**
 - Java (Core, Collections, Concurrency)  
 - Spring Boot & Spring MVC (REST APIs)  
 - JDBC (MySQL / H2 Database)  
@@ -52,7 +55,15 @@ This project emphasizes **productivity, simplicity, and accuracy** without relyi
 
 ---
 
-## 📦 **How to Run the Project**
-1. **Clone the repository**  
+## 📆 **Project Milestones**
+- **Week 1–2:** Setup Java, database, and Spring Boot environment; design Task model  
+- **Week 3–4:** Implement Task Management Engine & REST APIs  
+- **Week 5–6:** Implement Scheduling, Reporting, and CSV export  
+- **Week 7–8:** Completion Tracker, end-to-end testing, and deployment  
+
+---
+
+## ▶️ **How to Run the Project**
+1. Clone the repository:  
 ```bash
 git clone https://github.com/shaiksuhana2424/AutomatedTaskReminderProject.git
