@@ -65,7 +65,6 @@ This is a Java-based Task Reminder Application designed to help users efficientl
 
 ## ▶️ How to Run the Project
 1️⃣ Clone the repository:
-```bash
 git clone https://github.com/shaiksuhana2424/AutomatedTaskReminderProject.git
 
 2️⃣ Configure Database
@@ -94,11 +93,10 @@ Analytics dashboard
 👤 Author
 
 Shaik Suhana
-Final Year B.Tech Student
 Java & Spring Boot Developer
 
 
-📄 License
+# 📄 License
 
 MIT License
 Copyright (c) 2026 Shaik Suhana
