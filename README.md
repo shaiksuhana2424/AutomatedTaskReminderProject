@@ -63,7 +63,49 @@ This is a Java-based Task Reminder Application designed to help users efficientl
 
 ---
 
-## ▶️ **How to Run the Project**
-1. Clone the repository:  
+## ▶️ How to Run the Project
+1️⃣ Clone the repository:
 ```bash
 git clone https://github.com/shaiksuhana2424/AutomatedTaskReminderProject.git
+
+2️⃣ Configure Database
+
+Update application.properties with H2 (easy) or MySQL setup.
+
+3️⃣ Build & Run
+
+mvn spring-boot:run
+
+
+4️⃣ Access APIs
+
+Open in browser or Postman:
+
+http://localhost:8080
+
+📌 Future Enhancements
+
+Role-based authentication (JWT / OAuth)
+
+Frontend UI using React or Angular
+
+Push notifications for tasks
+
+Analytics dashboard
+
+👤 Author
+
+Shaik Suhana
+Final Year B.Tech Student
+Java & Spring Boot Developer
+
+📄 License
+
+MIT License
+Copyright (c) 2026 Shaik Suhana
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
